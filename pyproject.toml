@@ -1,0 +1,10 @@
+[project]
+name = "archive-in-git-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["iniconfig"]
+
+[tool.uv.sources]
+iniconfig = { path = "archives/iniconfig-2.0.0-py3-none-any.whl" }
